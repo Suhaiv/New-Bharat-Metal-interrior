@@ -1,4 +1,26 @@
 @media only screen and (min-width:200px) and (max-width:575px){
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #0f0f0f;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
   .row{
     flex-direction: column;
     margin: 5px;
@@ -72,6 +94,28 @@ figure{
 }
 }
 @media only screen and (min-width:576px) and (max-width:991px){
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #0f0f0f;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 10px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
 .member{
     flex-basis: 48%;
     display: flex;

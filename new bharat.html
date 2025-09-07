@@ -1,62 +1,119 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="logo.1.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Bharat</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="new bharat.css">
-    <link rel="stylesheet" href="media.css">
-    
+   <meta charset="UTF-8">
+   <link rel="icon" href="images/logo.1.png">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>New Bharat</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="new bharat.css">
+   <link rel="stylesheet" href="media.css">
+
 </head>
+
 <body>
-    <header>
-   <div class="header-main">
-      <div class="logo-1">
-         <a href="#"><img src="logo.jpg" class="logo"></a>
-      </div>
-   
-      <div class="search-bar">
-       <input  placeholder="search" class="search-input">
-      <div class="search-icon">
-          <i class="fa-solid fa-magnifying-glass"></i> 
-      </div> 
-      </div>
-   <div  >
-      <ul id="nav-bar">
-         <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
-         <li><a class="active" href="index.html">Home</a></li>
-         <li><a href="about.html">About</a></li>
-         <li><a href="contact.html">Contact</a></li>
-         <li><a href="location.html">Location</a></li>
+   <nav>
+      <div class="logo"><img src="images/logo.jpg" alt="logo"></div>
+      <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+      <ul class="nav-links">
+         <li><a href="#">Home</a></li>
+         <li>
+            <a href="#">Shutter</a>
+            <div class="dropdown">
+               <a href="">Metal rolling shutter</a>
+               <a href="">Steel rolling shutter</a>
+               <a href="">Automatic rolling shutter</a>
+               <a href="">Handle rolling shutter</a>
+            </div>
+         </li>
+         <li>
+            <a href="services.html">Metal/Iron </a>
+            <div class="dropdown">
+               <a href="">GATES</a>
+               <a href="">Main enterance gates</a>
+               <a href="">Door frames</a>
+               <a href="">Single door gates</a>
+               <a href="">AUTOMATIC SLIDING GATES</a>
+
+               <a href="">DESIGNER STAIRCASE</a>
+               <a href="">METAL GRILLS</a>
+               <a href="">METAL RAILING</a>
+               <a href="">FRONT ELEVATION WORKS</a>
+            </div>
+         </li>
+         <li>
+            <a href="#">Stainless Steel</a>
+            <div class="dropdown">
+               <a href="">GATES</a>
+               <a href="">Main enterance gates</a>
+               <a href="">Swiming gates</a>
+               <a href="">Door frames</a>
+               <a href="">SINGLE DOOR GATES</a>
+               <a href="">Fancy gates</a>
+               <a href="">Slinding gates</a>
+               <a href="">Garden gates</a>
+               <a href="">Designer gates</a>
+               <a href="">RAILINGS</a>
+               <a href="">Designer railing</a>
+               <a href="">Glass frame railing</a>
+               <a href="">Stainless steel railing</a>
+               <a href="">STEEL GRILLS</a>
+               <a href="">STEEL FABRICATIONS</a>
+               <a href="">DESIGNER STAIRCASE</a>
+               <a href="">WINDOW DOOR FRAMES</a>
+            </div>
+         </li>
+         <li>
+            <a href="gallery.html">Sheds</a>
+            <div class="dropdown">
+               <a href="">INDUSTRIAL SHEDS</a>
+               <a href="">Steel sheds</a>
+               <a href="">Warehouse sheds</a>
+               <a href="">House sheds</a>
+               <a href="">Front sheds</a>
+               <a href="">Steel sheds</a>
+               <a href="">CAR PARKING SHEDS</a>
+               <a href="">Open car parking </a>
+               <a href="">Commercial parking sheds</a>
+               <a href="">Roadside sheds</a>
+            </div>
+         </li>
+         <li>
+            <a href="#">Aluminium</a>
+            <div class="dropdown">
+               <a href="">Aluminium door</a>
+               <a href="">Aluminium slinding door</a>
+               <a href="">Aluminium window</a>
+               <a href="">Aluminium slinding window</a>
+               <a href="">Aluminium partition work</a>
+
+            </div>
+         </li>
+         <li><a href="#">Contact</a></li>
       </ul>
-   </div>
-   <div id="mobile">
-      <i id="bar" class="fas fa-outdent"></i>
-   </div>
-   </div>
-    </header>
-   
-<figure>
-   <div class="img-slide">
-       <img src="slide.jpg" > 
-       <div class="banner-text">
-         <h1>New Bharat Metal </h1>
-         <h1>& Interior</h1>
-         <p class="one">There was a well skilled </p>
-         <p class="two"> in iron , steel & interior works </p>
-         <p class="three"> manufacturing.  </p>
-       </div>
-   </div>
-</figure> 
-    
-    <div class="service">
+   </nav>
+
+   <figure>
+      <div class="img-slide">
+         <img src="images/slide.jpg">
+         <div class="banner-text">
+            <h1>New Bharat Metal </h1>
+            <h1>& Interior</h1>
+            <p class="one">There was a well skilled </p>
+            <p class="two"> in iron , steel & interior works </p>
+            <p class="three"> manufacturing. </p>
+         </div>
+      </div>
+   </figure>
+
+   <div class="service">
       <div class="service-1">
          <div class="head-1">
             <h3>NO VISITING CHARGE</h3>
-         <p>Free visit in spection and measurement</p>
+            <p>Free visit in spection and measurement</p>
          </div>
       </div>
       <div class="service-1">
@@ -71,252 +128,269 @@
             <p>high quality services and products.</p>
          </div>
       </div>
-    </div>
-    <div class="doorstep">
+   </div>
+   <div class="doorstep">
       <div class="selection-title">
          <h2>DOORSTEP SERVICES</h2>
-         </div>
-        <div class="row">
-         <div class="member">
-            <a href="shutter repair"><img src="shutterre.jpg" ><h3>Shutter Making & Repairing</h3></a>
-          
-         </div>
-          <div class="member">
-               <a href="steel repair"><img src="steelre.jpg"> <h3>Steel Making & Repairing</h3></a>   
-         </div>
-          <div class="member">
-             <a href="metal repair"><img src="doorstep.jpg" ><h3>Metal Making & Repairing</h3></a>
-         </div>
-          <div class="member">
-             <a href="sheds repair"><img src="shedsm.jpg" ><h3>Sheds Making & Repairing</h3></a>
-         </div>
-        </div>
-   <div class="nav-main">
-      <div class="our">OUR SERVICES</div>
-      <p>Best in class material | Professional worker | Charges after Inspection <br>
-      |Get you design | Fixed on same day</p>
-    </div>
-    <section id="product1" class="selection-p1">
-      <h3>MS Door</h3>
-        <div class="pro-container">
-        <div class="pro">
-            <img src="7a.jpeg" >
-         <div class="des">
-            <span>Apollo</span>
-            <h5>size: <span>7*3ft</span></h5>
-         </div>
-         <p>price: <span>13000</span></p>
-        </div>
-        <button>Add to cart</button>
       </div>
-    </section>
-    <div class="line-1">
-        <div class="h-3">
+      <div class="row">
+         <div class="member">
+            <a href="shutter repair"><img src="images/shutterre.jpg">
+               <h3>Shutter Making & Repairing</h3>
+            </a>
+
+         </div>
+         <div class="member">
+            <a href="steel repair"><img src="images/steelre.jpg">
+               <h3>Steel Making & Repairing</h3>
+            </a>
+         </div>
+         <div class="member">
+            <a href="metal repair"><img src="images/doorstep.jpg">
+               <h3>Metal Making & Repairing</h3>
+            </a>
+         </div>
+         <div class="member">
+            <a href="sheds repair"><img src="images/shedsm.jpg">
+               <h3>Sheds Making & Repairing</h3>
+            </a>
+         </div>
+      </div>
+      <div class="nav-main">
+         <div class="our">OUR SERVICES</div>
+         <p>Best in class material | Professional worker | Charges after Inspection <br>
+            |Get you design | Fixed on same day</p>
+      </div>
+      <section id="product1" class="selection-p1">
+         <h3>MS Door</h3>
+         <div class="pro-container">
+            <div class="pro">
+               <img src="images/7a.jpeg">
+               <div class="des">
+                  <span>Apollo</span>
+                  <h5>size: <span>7*3ft</span></h5>
+               </div>
+               <p>price: <span>13000</span></p>
+            </div>
+            <button>Add to cart</button>
+         </div>
+      </section>
+      <div class="line-1">
+         <div class="h-3">
             <h3>MS Main Front Door</h3>
-        </div>
-        <div class="box1">
-         <div class="box-1">
-            <img src="download.4.jpeg" >
          </div>
-         <div class="box-1">
-            <img src="download.3.jpeg"  >
+         <div class="box1">
+            <div class="box-1">
+               <img src="images/download.4.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/download.3.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/download.5.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/download.7.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/download.9.jpeg">
+            </div>
          </div>
-         <div class="box-1">
-            <img src="download.5.jpeg" >
+         <div class="price">
+            <h3>Price: 800sq/ft</h3>
          </div>
-         <div class="box-1">
-            <img src="download.7.jpeg" >
-         </div>
-         <div class="box-1">
-            <img src="download.9.jpeg" >
-         </div>
-        </div>
-        <div class="price">
-       <h3>Price: 800sq/ft</h3>
-        </div>
-    </div>
-    <div class="line-1">
-        <div class="h-3">
+      </div>
+      <div class="line-1">
+         <div class="h-3">
             <h3>SS Front Door</h3>
-        </div>
-        <div class="box1">
-         <div class="box-1">
-            <img src="img.6.avif" >
          </div>
-         <div class="box-1">
-            <img src="img.5.avif" >
+         <div class="box1">
+            <div class="box-1">
+               <img src="images/img.6.avif">
+            </div>
+            <div class="box-1">
+               <img src="images/img.5.avif">
+            </div>
+            <div class="box-1">
+               <img src="images/img.4.avif">
+            </div>
+            <div class="box-1">
+               <img src="images/img.3.avif">
+            </div>
+            <div class="box-1">
+               <img src="images/img.2.avif">
+            </div>
          </div>
-         <div class="box-1">
-            <img src="img.4.avif" >
+         <div class="price">
+            <h3>Price: 1200sq/ft</h3>
          </div>
-         <div class="box-1">
-            <img src="img.3.avif" >
-         </div>
-         <div class="box-1">
-            <img src="img.2.avif" >
-         </div>
-        </div>
-        <div class="price">
-         <h3>Price: 1200sq/ft</h3>
-          </div>
-    </div>
-    <div class="line-1">
-        <div class="h-3">
+      </div>
+      <div class="line-1">
+         <div class="h-3">
             <h3>SS Main Front Door</h3>
-        </div>
-        <div class="box1">
-         <div class="box-1">
-            <img src="big.1.jpg" >
          </div>
-         <div class="box-1">
-            <img src="big.2.jpg" >
+         <div class="box1">
+            <div class="box-1">
+               <img src="images/big.1.jpg">
+            </div>
+            <div class="box-1">
+               <img src="images/big.2.jpg">
+            </div>
+            <div class="box-1">
+               <img src="images/big.3.jpg">
+            </div>
+            <div class="box-1">
+               <img src="images/big.4.jpg">
+            </div>
+            <div class="box-1">
+               <img src="images/big.5.jpg">
+            </div>
          </div>
-         <div class="box-1">
-            <img src="big.3.jpg" >
+         <div class="price">
+            <h3>Price: 1200sq/ft</h3>
          </div>
-         <div class="box-1">
-            <img src="big.4.jpg" >
-         </div>
-         <div class="box-1">
-            <img src="big.5.jpg" >
-         </div>
-        </div>
-        <div class="price">
-         <h3>Price: 1200sq/ft</h3>
-          </div>
-    </div>
-    <div class="line-1">
-        <div class="h-3">
+      </div>
+      <div class="line-1">
+         <div class="h-3">
             <h3>Aluminium Door And Partition</h3>
-        </div>
-        <div class="box1">
-         <div class="box-1">
-            <img src="al.6.jpeg" >
          </div>
-         <div class="box-1">
-            <img src="al.5.jpeg" >
+         <div class="box1">
+            <div class="box-1">
+               <img src="images/al.6.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/al.5.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/al.4.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/al.2.webp">
+            </div>
+            <div class="box-1">
+               <img src="images/al.1.jpeg">
+            </div>
          </div>
-         <div class="box-1">
-            <img src="al.4.jpeg" >
+         <div class="price">
+            <h3>Price: 500sq/ft</h3>
          </div>
-         <div class="box-1">
-            <img src="al.2.webp" >
-         </div>
-         <div class="box-1">
-            <img src="al.1.jpeg" >
-         </div>
-        </div>
-        <div class="price">
-         <h3>Price: 500sq/ft</h3>
-          </div>
-    </div>
-    <div class="line-1">
-        <div class="h-3">
+      </div>
+      <div class="line-1">
+         <div class="h-3">
             <h3>Rolling Shutter</h3>
-        </div>
-        <div class="box1">
-         <div class="box-1">
-            <img src="st.1.jpeg" >
-            
          </div>
-         <div class="box-1">
-            <img src="st.2.jpeg" >
+         <div class="box1">
+            <div class="box-1">
+               <img src="images/st.1.jpeg">
+
+            </div>
+            <div class="box-1">
+               <img src="images/st.2.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/st.3.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="images/st.4.jpeg">
+            </div>
+            <div class="box-1">
+               <img src="st.5.jpeg">
+            </div>
          </div>
-         <div class="box-1">
-            <img src="st.3.jpeg" >
+         <div class="price">
+            <h3>Price: 800sq/ft</h3>
          </div>
-         <div class="box-1">
-            <img src="st.4.jpeg" >
-         </div>
-         <div class="box-1">
-            <img src="st.5.jpeg" >
-         </div>
-        </div>
-        <div class="price">
-         <h3>Price: 800sq/ft</h3>
-          </div>
-    </div>
-    
-    </div>
-    <div class="other">
+      </div>
+
+   </div>
+   <div class="other">
       <div class="heading">
          <h3>OTHER SERVICES</h3>
-         
+
       </div>
       <div class="ot-box1">
-         
-            <div class="I-1">
-               <a href="stair"><img src="stair.jpg" ></a>
+
+         <div class="I-1">
+            <a href="stair"><img src="images/stair.jpg"></a>
             <h4>-Stairscase</h4>
-          </div>
-         
-            <div class="I-1">
-               <a href="gamla stand"><img src="stand.jpeg" ></a>
-               <h4>-Flower poats stand</h4>
-            </div>
-        
-         
-            <div class="I-1">
-              <a href="railing"> <img src="ralling.jpg" ></a>
-              <h4>-Railing design</h4>
-            </div>
-         
+         </div>
+
+         <div class="I-1">
+            <a href="gamla stand"><img src="images/stand.jpeg"></a>
+            <h4>-Flower poats stand</h4>
+         </div>
+
+
+         <div class="I-1">
+            <a href="railing"> <img src="images/ralling.jpg"></a>
+            <h4>-Railing design</h4>
+         </div>
+
       </div>
-      
-    </div>
-    <div class="review">
+
+   </div>
+   <div class="review">
       <div class="customer">
-      <h2>Their Words, Our Pride</h2><br>
-            <p>Happy Words of our Happy Customers</p>
+         <h2>Their Words, Our Pride</h2><br>
+         <p>Happy Words of our Happy Customers</p>
       </div>
       <div class="review_point">
          <div class="zaffar">
             <div class="img_a">
-<img src="zaffar.jpg" >
+               <img src="images/zaffar.jpg">
             </div>
 
          </div>
-      <div class="nadeem">
-         <div class="img_b">
-            <img src="nadeem.jpg" >
+         <div class="nadeem">
+            <div class="img_b">
+               <img src="images/nadeem.jpg">
+            </div>
          </div>
-      </div>
-      <div class="suhaiv">
-         <div class="img_c">
-            <img src="suhaiv.jpg" >
+         <div class="suhaiv">
+            <div class="img_c">
+               <img src="images/suhaiv.jpg">
+            </div>
          </div>
-      </div>
       </div>
       <div class="blank"></div>
-    </div>
+   </div>
    </div>
    <footer>
-    <div class="main-footer">
-        <div class="ha_line">
-         <hr>
-         <div class="services">
-            <a href=""><p>About</p></a>
-         <a href=""><p>User Services</p></a>
-         <a href=""><p>Product</p></a>
-         <a href=""><p>Contact</p></a>
+      <div class="main-footer">
+         <div class="ha_line">
+            <hr>
+            <div class="services">
+               <a href="">
+                  <p>About</p>
+               </a>
+               <a href="">
+                  <p>User Services</p>
+               </a>
+               <a href="">
+                  <p>Product</p>
+               </a>
+               <a href="">
+                  <p>Contact</p>
+               </a>
+            </div>
+            <hr>
          </div>
-         <hr>
-        </div>
-        <div class="terms">
-         <p>Terms & Condition | Privacy Policy | Disclaimer</p>
-        </div>
-        <div class="social_app">
-         <i class="fa-brands fa-twitter"></i>
-         <i class="fa-brands fa-square-instagram"></i>
-         <i class="fa-brands fa-facebook"></i>
-         <i class="fa-brands fa-linkedin"></i>
-         <i class="fa-brands fa-square-whatsapp"></i>
-        </div>
-        <div class="copy_right">
-         <p>2024 Copyright:  New Bharat.com</p>
-        </div>
-    </div>
+         <div class="terms">
+            <p>Terms & Condition | Privacy Policy | Disclaimer</p>
+         </div>
+         <div class="social_app">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-square-whatsapp"></i>
+         </div>
+         <div class="copy_right">
+            <p>2024 Copyright: New Bharat.com</p>
+         </div>
+      </div>
    </footer>
    <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,14 +1,19 @@
+
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
+
 const bar = document.getElementById('bar');
 const closse = document.getElementById('close');
 const nav = document.getElementById('nav-bar');
 
 if (bar) {
-    bar.addEventListener('click', ()=> {
+    bar.addEventListener('click', () => {
         nav.classList.add('active');
     })
 }
 if (closse) {
-    closse.addEventListener('click', ()=> {
+    closse.addEventListener('click', () => {
         nav.classList.remove('active');
     })
 }
